@@ -5,7 +5,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/rohanbhai27/SEARCH-ZONE-ROBOT.git /SEARCH-ZONE-ROBOT 
+  git clone https://github.com/rohanhackeryt/SEARCH-ZONE-ROBOT.git /SEARCH-ZONE-ROBOT 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /SEARCH-ZONE-ROBOT 
